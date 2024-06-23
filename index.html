@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      
+    }
+    .btn{padding:5px 15px;margin-right:20px;}
+    .btn1{backgorund:#58a0f3;}
+    .btn2{backgorund:#96c3f5;}
+    .btn3{backgorund:#083e7b;}
+    .btn4{backgorund:#747c7c;}
+    .btn5{backgorund:#d6bba2;}
+    .btn6{backgorund:#32394e;}
+  </style>
+<body>
+  <button class="btn btn1" onClick="changeBgColor('58a0f3')">Color 1</button>
+  <button class="btn btn2" onClick="changeBgColor('96c3f5')">Color 2</button>
+  <button class="btn btn3" onClick="changeBgColor('083e7b')">Color 3</button>
+  <button class="btn btn4" onClick="changeBgColor('747c7c')">Color 4</button>
+  <button class="btn btn5" onClick="changeBgColor('d6bba2')">Color 5</button>
+  <button class="btn btn6" onClick="changeBgColor('32394e')">Color 6</button>
+
+
+</body>
+  function changeBgColor(bg){
+    document.body.style.backgroundColor = '#'+bg;
+  }
+</html>
